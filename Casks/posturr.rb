@@ -1,6 +1,6 @@
 cask "posturr" do
-  version "1.4.0"
-  sha256 "144635907a96d997a8cc8c2d8bf905c0f3eb9d8af890254134ad7565468f8f04"
+  version "1.4.1"
+  sha256 "e7c57cc12de84098af426f8ddec9b58dd8bacfbee9085918b546fb19c3d93b5a"
 
   url "https://github.com/tldev/posturr/releases/download/v#{version}/Posturr-v#{version}.zip"
   name "Posturr"
