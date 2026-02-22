@@ -2,6 +2,23 @@
 
 Homebrew tap for apps by [tldev](https://github.com/tldev).
 
+## Status
+
+This tap is deprecated for Dorso.
+Install from the official Homebrew Cask tap instead:
+
+```bash
+brew install --cask dorso
+```
+
+If you previously used this tap:
+
+```bash
+brew untap tldev/tap
+brew update
+brew upgrade --cask dorso
+```
+
 ## Installation
 
 ```bash
@@ -10,15 +27,15 @@ brew tap tldev/tap
 
 ## Available Apps
 
-### Posturr
+### Dorso
 
-A posture monitoring app for macOS that blurs your screen when you slouch.
+Install via the official Homebrew Cask tap:
 
 ```bash
-brew install --cask posturr
+brew install --cask dorso
 ```
 
-[More info](https://github.com/tldev/posturr)
+[More info](https://github.com/tldev/dorso)
 
 ## Updating
 
